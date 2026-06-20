@@ -1,13 +1,9 @@
-from dotenv import load_dotenv
-import os
-from groq import Groq
 import streamlit as st
+from groq import Groq
 
-load_dotenv()
+api_key = st.secrets["GROQ_API_KEY"]
 
-client = Groq(
-    api_key=os.getenv("GROQ_API_KEY")
-)
+client = Groq(api_key=api_key)
 
 st.title("BOB 2.0")
 
