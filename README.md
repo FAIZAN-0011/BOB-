@@ -1,18 +1,22 @@
- BOB 2.0
+## BOB-
 
 An AI chatbot built using Streamlit and Groq API.
 
-Features:
+## Live Demo
 
-- Chat interface
-- Conversation history
-- Powered by Llama 3.3 70B
+https://zexhst9t6w5rzkf55ngyvr.streamlit.app/
+
+## Features
+
+- AI-powered chatbot
 - Streamlit UI
+- Conversation history
+- Groq LLM integration
 
-Installation:
+## Installation
 
-pip install streamlit groq python-dotenv
+pip install -r requirements.txt
 
-Run:
+## Run Locally
 
 streamlit run app.py
